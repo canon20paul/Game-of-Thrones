@@ -1,0 +1,20 @@
+{
+  "name": "game-of-thrones",
+  "version": "1.0.0",
+  "description": "Game of Thrones  - Module2 Group Capstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canon20paul/Game-of-Thrones.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canon20paul/Game-of-Thrones/issues"
+  },
+  "homepage": "https://github.com/canon20paul/Game-of-Thrones#readme"
+}
