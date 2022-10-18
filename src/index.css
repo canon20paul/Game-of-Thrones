@@ -1,3 +1,65 @@
 body{
-    background-color: yellow;
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-family: 'El Messiri', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    
+}
+.logo {
+    display: flex;
+}
+
+.logo img{
+  border: 4px solid;
+  border-radius: 50px;
+  width: 85px;
+}
+
+.list {
+    display: flex;
+}
+
+.list-item {
+    padding: 1rem 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 9rem;
+  }
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.imageDiv img {
+    border: 4px solid;
+}
+
+footer {
+    border-top: 2px solid;
+}
+
+.footer-container {
+    margin-left: 20px;
 }
