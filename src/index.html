@@ -16,11 +16,34 @@
     <body>
         <main>
             <header>
-            <h1>THE GAME OF THRONES</h1>
+            <h1>Game of Thrones Character Api</h1>
             </header>
+            <section class="display-container">
+              <h2>Character List</h2>
+              <div class="container">
+              <div class="col-header">
+                <h3>id</h3>
+                <h3>Name</h3>
+                <h3>image</h3>
+              </div>          
+              <div id="character-list"></div>
+                <div class="col-footer">
+                <label for="range" >Items per page<select name="range" id="range">
+  <option value="five">5</option>
+  <option value="ten">10</option>
+  <option value="twenty">20</option>
+  <option value="all">All</option>
+</select></label>
+                <div class="pages"><p class="from">1 -</p>
+                <p class="to"> 53&nbsp;  </p>
+                <p class="totalPages">  of 53 </p></div>
+                <div class="navigation-keys"><span class="back">&#8249;</span><span class="forward">&#8250;</span></div>
+                </div>
+                </div>
+              </div>
+            </section>
         </main>
-<script src="main.js"></script>
-<script src="bundle.js"></script>
+<script src="index.js"></script>
     </body>
 
 

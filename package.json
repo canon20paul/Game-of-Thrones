@@ -6,9 +6,10 @@
   "private": true,
   "scripts": {
     "test": "jest",
+    "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack serve --open",
-    "build": "webpack"
+    "start": "webpack serve --open"
+    
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/webpack-babel-jest",

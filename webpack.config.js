@@ -2,14 +2,17 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
     mode: 'development',
+    entry: {
+   index: './src/index.js'
+},
+    
     devtool: 'inline-source-map',
     devServer: {
         static: './dist',
     },
     output: {
-        filename: 'bundle.js',
+        filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
@@ -18,7 +21,9 @@ module.exports = {
     // },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            title: 'GAME OF THRONES',
+            filename: 'index.html',
+            template: 'src/index.html',
         }),
     ],
     module: {
