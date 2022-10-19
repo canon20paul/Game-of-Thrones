@@ -1,0 +1,46 @@
+{
+  "name": "game-of-thrones",
+  "version": "1.0.0",
+  "description": "Module Capstone Project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/webpack-babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canon20paul/Game-of-Thrones.git"
+  },
+  "author": "Paul Malongo & Manar ALomari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canon20paul/Game-of-Thrones/issues"
+  },
+  "homepage": "https://github.com/canon20paul/Game-of-Thrones#readme",
+  "devDependencies": {
+    "webpack-babel-jest": "*",
+    "jest-cli": "*",
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4",
+    "css-loader": "^6.7.1",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
