@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
 }
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -8,8 +9,8 @@ body {
   width: 100%;
   height: auto;
   margin-bottom: 5rem;
-  background: #4682B4;
 }
+
 main {
   width: 100%;
   height: auto;
@@ -17,16 +18,15 @@ main {
   align-items: center;
   flex-flow: column nowrap;
 }
+
 .display-container {
-  width: 90%;
-  max-width: 800px;
+  width: 100%;
   height: auto;
   display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
   background-color: #fff;
 }
+
 .container {
   width: 95%;
   height: auto;
@@ -36,29 +36,59 @@ main {
   align-items: center;
   box-shadow: 3px 3px 30px 3px rgb(106, 107, 106);
 }
+
 h1 {
-  color: #fff;
   font-weight: 200;
   font-size: 2.15rem;
 }
+
 h2 {
   width: 90%;
   font-weight: 100;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 h3 {
   width: fit-content;
 }
+
 h3:nth-child(1) {
   margin-left: 80px;
 }
+
 h3:nth-child(3) {
   margin-right: 80px;
 }
+
 .col-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+nav {
+display: flex;
+}
+
+.logo img {
+height: 30px;
+width: 30ox;
+border-radius: 80px;
+border: 2px solid #000;
+}
+
+.navItem {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  padding: 0 10px;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #000;
 }
 .col-footer {
   width: 100%;
@@ -70,44 +100,74 @@ h3:nth-child(3) {
   align-self: flex-end;
   color: rgb(102, 99, 99);
 }
+
 #character-list {
   width: 100%;
-  display: flex;
-  flex-flow: column;
+  display: grid;
+  grid-template-columns: auto auto auto;
   justify-content: space-around;
 }
+
 .picture {
-  max-width: 50px;
+  max-width: 130px;
   height: auto;
-  margin-right: 80px;
+  display: block;
 }
+
 .character {
   width: 100%;
   height: auto;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  border: rgb(204, 202, 202) 1px solid;
-  padding: 0 30px 0 -30px;
+  padding: 20px;
 }
+
 .Character-id {
-  margin-left: 80px;
+  margin-left: 0;
 }
+.div1 {
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.like-btn {
+  background-image: url(./heart.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  float: right;
+}
+
+.btn {
+  display: block;
+  background-color: #fff;
+  border: 2px solid #000;
+  padding-bottom: 3px;
+  margin-bottom: 15px;
+  box-shadow: 1px 3px #000;
+}
+
 .navigation-keys {
   width: 5rem;
 }
+
 span {
   height: 100%;
   width: 50%;
   font-size: 2rem;
   margin-right: 1rem;
 }
+
 .pages {
   width: 10rem;
   height: 100%;
   display: flex;
   font-size: 0.7rem;
 }
+
 label,
 select {
   font-size: 0.9rem;

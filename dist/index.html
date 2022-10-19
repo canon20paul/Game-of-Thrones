@@ -11,50 +11,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>PRANMOVIES: Your Go-to for Tv shows and Movies</title>
-  <script defer src="/Leaderboard/runtime.bundle.js"></script><script defer src="/Leaderboard/main.bundle.js"></script></head>
-  <body>
-    <main id="main">
-      <header class="header-container">
-        <h1>Pran<span>Movies</span></h1>
-        <nav class="nav-menu">
-          <div class="mobile">
-            <i class="fa fa-search mobile" aria-hidden="true"></i>
-            <i class="fa fa-bars mobile" aria-hidden="true"></i>
-          </div>
+    <title>THE GAME OF THRONES</title>
+    <script defer src="/Game-Of-Thrones/runtime.bundle.js"></script><script defer src="/Game-Of-Thrones/main.bundle.js"></script></head>
+    <body>
+        <main>
+            <header>
+            <h1>THE GAME OF THRONES</h1>
+            <nav>
+              <div class="logo">
+                <img src="../src/heart.png" alt="logo image">
+              </div>
+              <ul class="navItem">
+                <li class="list-item">
+                  <a href="#">Actors(counter)</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Movies</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Series</a>
+                </li>
+              </ul>
+            </nav>
+            </header>
+            <section class="display-container">
+              <div class="character-list" id="character-list">
 
-          <ul>
-            <li class="nav-items">
-              <a href="#">Home</a>
-              <a href="#">Movies</a>
-              <a href="#">Tv Shows</a>
-              <input
-                type="text"
-                name="search"
-                id="search"
-                placeholder="Search"
-              />
-            </li>
-          </ul>
-        </nav>
-      </header>
+              </div>
+            </section>
+        </main>
 
-      <section>
-        <h2>Best Tv Series of all Time <small class="movielength"></small></h2>
-        <div class="card-container" id="movies"></div>
-      </section>
-    </main>
-    <div class="popup"></div>
-    <div class="overlay"></div>
-    <footer>
-      <div class="go-up">
-        <a href="#movies"
-          ><i class="fa fa-chevron-circle-up" aria-hidden="true"></i
-        ></a>
-      </div>
-      <div class="footer-text">
-        <p>&copy; Pran<span>Movies</span> Media Inc. All Rights Reserved</p>
-      </div>
-    </footer>
-  </body>
-</html>
+   <!-- <script src="bundle.js"></script> -->
+    </body>
+    </html>
