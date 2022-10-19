@@ -67,14 +67,18 @@ h3:nth-child(3) {
 }
 
 nav {
-display: flex;
+  display: flex;
 }
 
-.logo img {
-height: 30px;
-width: 30ox;
-border-radius: 80px;
-border: 2px solid #000;
+.logo {
+  background-image: url(./logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 30ox;
+  border-radius: 80px;
+  border: 2px solid #000;
+  width: 10%;
 }
 
 .navItem {
