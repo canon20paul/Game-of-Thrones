@@ -1,3 +1,4 @@
+
 const gameOfThronesAPI = async () => {
     const gettingList = await fetch('https://thronesapi.com/api/v2/Characters');
     const convertList = await gettingList.json();
@@ -11,7 +12,6 @@ const gameOfThronesAPI = async () => {
     const finalList = await characterList.slice(start, range);
   
     finalList.forEach((actor) => {
-      
       characterElement.innerHTML +=  `  <div class="character">
       <img src=${actor.imageUrl} alt=${actor.firstName} class="picture">
       <div class='div1'>
@@ -24,4 +24,4 @@ const gameOfThronesAPI = async () => {
     });
   };
   
-  export { gameOfThronesAPI, displayCharacters, globalList };
+  export { gameOfThronesAPI, displayCharacters, globalList};
