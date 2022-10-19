@@ -75,7 +75,6 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  width: 30ox;
   border-radius: 80px;
   border: 2px solid #000;
   width: 10%;
@@ -94,6 +93,7 @@ nav {
   text-decoration: none;
   color: #000;
 }
+
 .col-footer {
   width: 100%;
   max-width: 500px;
@@ -128,6 +128,7 @@ nav {
 .Character-id {
   margin-left: 0;
 }
+
 .div1 {
   display: flex;
   flex-direction: column;
