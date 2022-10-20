@@ -118,6 +118,19 @@ nav {
   display: block;
 }
 
+.pictureModal {
+  margin: auto;
+  padding-bottom: 5px;
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.Character-namesModal {
+  width: 100%;
+  text-align: center;
+}
+
 .character {
   width: 100%;
   height: auto;
@@ -187,4 +200,45 @@ footer {
 footer p {
   margin-left: 24px;
   padding: 4px;
+
+.modal {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  opacity: 1;
+}
+
+.characterModal {
+  width: 30%;
+  min-width: 350px;
+  height: 150%;
+  margin: auto;
+}
+
+.modalDetail {
+  margin: auto;
+}
+
+.Ffield {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.TTitle {
+  width: 10rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.record {
+  width: 30rem;
+  display: flex;
+
 }
