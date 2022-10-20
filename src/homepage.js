@@ -17,7 +17,7 @@ const displayCharacters = async (start, range) => {
       <p> 0 likes </p>
       </div>
       <p class="Character-names">${actor.fullName}</p>
-      <button type='button' class='btn'>Comments</button>
+      <button type='button' id='${actor.id}'>Comments</button>
       </div>`;
   });
 };
