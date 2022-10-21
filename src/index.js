@@ -2,7 +2,10 @@ import './index.css';
 import { displayCharacters } from './homepage.js';
 import { displayCharacter } from './popup.js';
 
-window.onload = function () { displayCharacters(0, 10); document.getElementById('commentModal').hidden = true; };
+window.onload = function () {
+  displayCharacters(0, 12);
+  document.getElementById('commentModal').hidden = true;
+};
 
 document.getElementById('character-list').addEventListener('click', (e) => {
   displayCharacter(e.target.id);
