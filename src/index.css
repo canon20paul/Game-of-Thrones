@@ -80,6 +80,10 @@ nav {
   width: 10%;
 }
 
+ul {
+  list-style: none;
+}
+
 .navItem {
   display: flex;
   list-style: none;
@@ -113,16 +117,16 @@ nav {
 }
 
 .picture {
-  max-width: 130px;
-  height: auto;
+  height: 130px;
   display: block;
+  border-radius: 10%;
+  width: 130px;
 }
 
 .pictureModal {
-  margin: auto;
-  width: 37%;
+  width: 100%;
   height: auto;
-  display: block;
+  margin-top: 3rem;
 }
 
 .Character-namesModal {
@@ -230,9 +234,7 @@ footer p {
 }
 
 .Ffield {
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
+  margin: 5px;
   padding: 0;
 }
 
@@ -243,4 +245,8 @@ footer p {
 .record {
   width: 30rem;
   display: flex;
+}
+
+#comment {
+  box-shadow: none;
 }

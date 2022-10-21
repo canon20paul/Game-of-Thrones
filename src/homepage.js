@@ -39,7 +39,7 @@ const displayCharacters = async (start, range) => {
     p.innerHTML = actor.fullName;
     const commentBtn = document.createElement('button');
     commentBtn.setAttribute('id', 'comment-btn');
-    commentBtn.setAttribute('class', 'comments');
+    commentBtn.setAttribute('class', 'btn');
     commentBtn.innerHTML = 'Comments';
     character.appendChild(p);
     character.appendChild(commentBtn);
