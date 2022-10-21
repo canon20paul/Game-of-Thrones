@@ -27,8 +27,9 @@ const displayCharacter = (e) => {
       closeBtn.setAttribute('id', 'btnClose');
       closeBtn.innerHTML = 'X';
       closeBtn.addEventListener('click', () => {
+
         close();
-        displayCharacters();
+       // displayCharacters();
       });
 
       characterModal.appendChild(closeBtn);
@@ -75,4 +76,4 @@ const displayCharacter = (e) => {
     }
   }
 };
-export default displayCharacter;
+export { displayCharacter , gameOfThronesAPI } ;
