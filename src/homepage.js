@@ -18,13 +18,13 @@ const displayCharacters = async (start, range) => {
 
     const livecount = actorLikes[0].likes;
 
-    characterElement.innerHTML += `  <div class="character">
-      <img src=${actor.imageUrl} alt=${actor.firstName} class="picture">
-      <div class='div1'>
-      <button type='button' class='like-btn'></button>
-      <p class="likeTotal"> ${livecount} likes </p>
+    characterElement.innerHTML += `  <div class="character" id="character">
+      <img src=${actor.imageUrl} alt=${actor.firstName} class="picture" id="picture">
+      <div class='div1' id='div1'>
+      <button type='button' class='like-btn' id='like-btn' title='${actor.id}'></button>
+      <p id="likeTotal${actor.id}" class="likeTotal${actor.id}"> ${livecount}Likes </p>
       </div>
-      <p class="Character-names">${actor.fullName}</p>
+      <p id="Character-names" class="Character-names">${actor.fullName}</p>
       <button type='button' id='${actor.id}'>Comments</button>
       </div>`;
   });
