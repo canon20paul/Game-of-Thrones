@@ -1,4 +1,5 @@
-import displayCharacter from './popup.js';
+import { displayCharacter } from './popup.js';
+
 const gameOfThronesAPI = async () => {
   const gettingList = await fetch('https://thronesapi.com/api/v2/Characters');
   const convertList = await gettingList.json();

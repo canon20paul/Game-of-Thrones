@@ -1,4 +1,5 @@
 import { displayCharacters } from './homepage.js';
+
 let ArrayOfFetchedData;
 const mainId = document.getElementById('mainId');
 const popCharacter = document.getElementById('commentModal');
@@ -25,7 +26,7 @@ const displayCharacter = (e) => {
       const closeBtn = document.createElement('button');
       closeBtn.setAttribute('id', 'btnClose');
       closeBtn.innerHTML = 'X';
-      closeBtn.addEventListener('click', (e) => {
+      closeBtn.addEventListener('click', () => {
         close();
         displayCharacters();
       });
